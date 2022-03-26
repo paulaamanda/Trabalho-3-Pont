@@ -27,8 +27,8 @@ document.write("<br>Total a pagar pós desconto: " + totalpag);
 
 if (quant <=5) {
 	document.write("<br>Seu desconto será de 2% pela compra de "+quant+" apstilas")
-}else if (quant >5 && quant <=10) {
+}else if (quant>5 && quant <=10) {
 	document.write("<br>Seu desconto será de 3% pela compra de "+quant+" apstilas")
-}else if (quant >10){
+}else if (quant>10){
 	document.write("<br>Seu desconto será de 5% pela compra de "+quant+" apstilas")
 }
