@@ -1,0 +1,23 @@
+//index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Questão 2</title>
+	</head>
+	<body>	
+		<script src="index.js"></script>
+	</body>
+</html>
+//index.js
+var Decrescente=10;
+document.write("<br>Ordem Decrescente:");
+while(Decrescente>=1){
+	document.write("<br> " + Decrescente);
+    Decrescente--;
+    }var Crescente=1;
+        document.write("<br>Ordem Crescente:");
+while(Crescente<=10){
+	document.write("<br> " + Crescente);
+	Crescente++;
+}
