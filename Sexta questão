@@ -1,0 +1,41 @@
+//index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Questão 6</title>
+	</head>
+	<body>	
+		<script src="index.js"></script>
+	</body>
+</html>
+
+//index.js
+let number = 104
+   let quant = 8
+   switch (number) {
+       case 100:
+           let cQuente=quant*1.70
+           document.write("<br>O preço do seu pedido total de Cachorro quente simplres é de:" + cQuente + " R$")
+           break;
+       case 101:
+           let bSimples=quant*2.30
+           document.write(" <br>O preço do seu pedido total de bauru simples ficou:" + bauSimples + " R$")
+           break;
+       case 102:
+           let bComOvo=quant*2.60
+           document.write("<br>O preço do seu pedido total de  bauru com ovo ficou:" + bauComOvo + " R$")
+           break;
+       case 103:
+           let hamb=quant*2.40
+           document.write("<br>O preço do seu pedido total de hamburguer ficou:" + hamb + " R$")
+           break;
+       case 104:
+           let cheeseb=quant*2.50
+           document.write("<br>O preço do seu pedido total de cheeseburguer ficou: " + cheeseb + " R$")
+           break;
+       case 105:
+           let refri=quant*1.00
+           document.write("<br><br>O preço do seu pedido total de refrigerante ficou: " + refri + " R$")
+           break;
+   }
