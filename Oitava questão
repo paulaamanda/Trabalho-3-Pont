@@ -1,0 +1,17 @@
+//index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Questão 8</title>
+	</head>
+	<body>	
+		<script src="index.js"></script>
+	</body>
+</html>
+//index.js
+let numero = 10
+for (let n = 1; n <= numero && numero >= 0; n++) {
+    document.write(n+"</br> ");
+
+}
