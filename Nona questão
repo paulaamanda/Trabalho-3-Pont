@@ -1,0 +1,28 @@
+//index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Questão 9</title>
+	</head>
+	<body>	
+		<script src="index.js"></script>
+	</body>
+</html>
+//index.js
+var int = prompt("Digite um número de 1 à 10");
+if(int >=1 && int <=10){
+  document.write("Esta é a taboada do "+int+"<br>")
+  document.write(int+" x 1 = "+int*1+"<br>")
+  document.write(int+" x 2 = "+int*2+"<br>")
+  document.write(int+" x 3 = "+int*3+"<br>")
+  document.write(int+" x 4 = "+int*4+"<br>")
+  document.write(int+" x 5 = "+int*5+"<br>")
+  document.write(int+" x 6 = "+int*6+"<br>")
+  document.write(int+" x 7 = "+int*7+"<br>")
+  document.write(int+" x 8 = "+int*8+"<br>")
+  document.write(int+" x 9 = "+int*9+"<br>")
+  document.write(int+" x 10 = "+int*10+"<br>")
+}else{
+  document.write("Valor invalido")
+}
