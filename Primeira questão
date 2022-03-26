@@ -1,0 +1,20 @@
+//index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> Questão 01</title>
+	</head>
+	<body>	
+		<script src="index.js"></script>
+	</body>
+</html>
+
+//index.js
+var valor = prompt("Digite um valor");
+
+if(valor >= 10){
+	document.write( "esse valor é maior que 10" );
+}else if(valor < 10){
+	document.write( " esse valor é menor que 10" );
+  }
