@@ -1,0 +1,16 @@
+//index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Questão 7</title>
+	</head>
+	<body>	
+		<script src="index.js"></script>
+	</body>
+</html>
+//index.js
+var inicio = 100; 
+while(inicio <= 110){ 
+ document.write( "</br>" + inicio); inicio++; 
+}
