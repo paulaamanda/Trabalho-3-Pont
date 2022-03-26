@@ -1,0 +1,28 @@
+//index.html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Questão 2</title>
+	</head>
+	<body>	
+		<script src="index.js"></script>
+	</body>
+</html>
+//index.js
+let empregado = prompt("digite seu nome")
+let anoDeNascim = prompt("digite seu ano de nacsimento")
+let anoAtual = 2022;
+let idade = anoAtual - anoDeNascim;
+let tempDeTrabalho = idade - 30;
+
+if (idade >= 60 && idade <=99 && tempDeTrabalho >= 25 && tempDeTrabalho <=69) {
+  document.write("Empregado/a: " + empregado + "<br> tem: " + idade + " anos de idade. <br> Ingressou na empresa à: " + tempDeTrabalho + " anos. <br> pode requerir a aposentadoria!")
+
+} else if (idade <= 60 && tempDeTrabalho <= 30) {
+  document.write("Idade invalida e tempo de trabalho insuficiente para requerer a aposentadoria")
+} else if (idade >= 60 && idade <= 99 && tempDeTrabalho <= 30) {
+  document.write("Tempo de trabalho insuficiente para requerer a aposentadoria")
+} else if(idade >= 100 && tempDeTrabalho >= 70) {
+  document.write("erro")
+}
